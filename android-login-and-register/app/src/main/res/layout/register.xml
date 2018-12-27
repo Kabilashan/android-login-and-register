@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="18dp"
+    android:paddingBottom="18dp"
+    android:background="@drawable/bg2">
+
+
+    <TextView
+        android:id="@+id/topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KA MU KOO"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:fontFamily="casual" />
+
+    <EditText
+        android:id="@+id/signup_input_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Name"
+        android:textStyle="bold"
+        android:textColorHint="#000000"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/user"
+        android:layout_marginTop="15dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+    <EditText
+        android:id="@+id/signup_input_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Email"
+        android:textStyle="bold"
+        android:textColorHint="#000000"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/mail"
+        android:layout_marginTop="15dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+    <EditText
+        android:id="@+id/signup_input_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:padding="6dp"
+        android:textStyle="bold"
+        android:hint="............"
+        android:textColorHint="#000000"
+        android:maxLines="1"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/key"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+    <EditText
+        android:id="@+id/signup_input_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Age"
+        android:textStyle="bold"
+        android:textColorHint="#000000"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/age"
+        android:layout_marginTop="15dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/gender"/>
+
+        <RadioGroup
+            android:id="@+id/gender_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/male_radio_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textStyle="bold"/>
+
+            <RadioButton
+                android:id="@+id/female_radio_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textStyle="bold"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:padding="16dp"
+        android:clickable="true"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn_link_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALREADY HAVE AN ACCOUNT LOGIN"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif"
+        android:clickable="true"/>
+
+
+</LinearLayout>

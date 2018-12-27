@@ -1,0 +1,2 @@
+first you need to copy the android_login_example file and paste it in the C/xampp/www folder
+In here database have been created it phpmyadmin
